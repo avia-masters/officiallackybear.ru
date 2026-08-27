@@ -1,0 +1,1272 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="images/logo.png">
+    
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=112008157', 'ym');
+
+        ym(112008157, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/112008157" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    
+    <title>Lucky Bear Казино — официальный сайт для СНГ</title>
+    <meta name="description" content="Lucky Bear Казино — официальный сайт для игроков из СНГ. Вход, регистрация, бонусы до 500%, слоты, live-игры и быстрые выплаты.">
+    <meta name="theme-color" content="#0a1628">
+    <link rel="canonical" href="https://officiallackybear.ru/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Lucky Bear Казино — официальный сайт для СНГ">
+    <meta property="og:description" content="Lucky Bear Казино — официальный сайт для игроков из СНГ. Вход, регистрация, бонусы до 500%, слоты, live-игры и быстрые выплаты.">
+    <meta property="og:url" content="https://officiallackybear.ru/">
+    <meta property="og:image" content="https://officiallackybear.ru/images/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        /* ===== БАЗА ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(160deg, #0a1628 0%, #0f2040 50%, #0a1628 100%);
+            color: #d0e4f8;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        a {
+            color: #4ab8ff;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #7acbff;
+            text-shadow: 0 0 25px rgba(74, 184, 255, 0.2);
+        }
+
+        /* ===== СКИП-ССЫЛКА ===== */
+        .skip {
+            position: absolute;
+            top: -100px;
+            left: 10px;
+            background: linear-gradient(135deg, #1a7acc, #4ab8ff);
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 0 0 8px 8px;
+            z-index: 1000;
+            font-weight: 700;
+        }
+        .skip:focus { top: 0; }
+
+        /* ===== ШАПКА ===== */
+        .site-header {
+            background: rgba(10, 22, 40, 0.85);
+            backdrop-filter: blur(20px);
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(26, 48, 80, 0.5);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 22px;
+            font-weight: 800;
+            color: #ffffff;
+        }
+        .brand img { height: 44px; width: auto; display: block; }
+
+        .menu-button {
+            display: none;
+            background: none;
+            border: 1px solid #1a3050;
+            color: #d0e4f8;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .main-nav {
+            display: flex;
+            align-items: center;
+            gap: 10px 20px;
+            flex-wrap: wrap;
+        }
+        .main-nav a {
+            color: #8aaac8;
+            font-weight: 500;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+        .main-nav a:hover {
+            color: #4ab8ff;
+            text-shadow: 0 0 20px rgba(74, 184, 255, 0.15);
+        }
+        .main-nav a.active {
+            color: #4ab8ff;
+            border-bottom: 2px solid #4ab8ff;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .age-badge {
+            background: #1a3050;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 700;
+            color: #4ab8ff;
+            font-size: 13px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 24px;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: 0.3s;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .btn.primary {
+            background: linear-gradient(135deg, #1a7acc, #4ab8ff);
+            color: #ffffff;
+            box-shadow: 0 4px 25px rgba(26, 124, 204, 0.3);
+            background-size: 200% 200%;
+            animation: gradientShift 3s ease infinite;
+        }
+        .btn.primary:hover {
+            transform: scale(1.04);
+            box-shadow: 0 8px 40px rgba(74, 184, 255, 0.35);
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .btn.ghost {
+            background: transparent;
+            color: #8aaac8;
+            border: 1px solid #1a3050;
+        }
+        .btn.ghost:hover {
+            border-color: #4ab8ff;
+            color: #4ab8ff;
+            box-shadow: 0 0 30px rgba(74, 184, 255, 0.05);
+        }
+
+        .btn.large {
+            padding: 14px 40px;
+            font-size: 18px;
+        }
+
+        /* ===== ГЕРОЙ ===== */
+        .page-hero {
+            padding: 50px 0 60px;
+            background: linear-gradient(145deg, rgba(10, 22, 40, 0.8), rgba(15, 32, 64, 0.6));
+            border-radius: 0 0 40px 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: -30%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(26, 122, 204, 0.06), transparent 70%);
+            pointer-events: none;
+        }
+        .page-hero::after {
+            content: '';
+            position: absolute;
+            bottom: -20%;
+            left: -5%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(74, 184, 255, 0.04), transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .eyebrow {
+            display: inline-block;
+            background: rgba(26, 48, 80, 0.5);
+            backdrop-filter: blur(4px);
+            padding: 4px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #4ab8ff;
+            margin-bottom: 12px;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #1a7acc, #4ab8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .page-hero h1 {
+            font-size: 44px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            color: #ffffff;
+        }
+
+        .page-hero h1 .big-bonus {
+            font-size: 54px;
+            background: linear-gradient(135deg, #1a7acc, #4ab8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .page-hero p {
+            font-size: 18px;
+            color: #8aaac8;
+            max-width: 600px;
+            margin-bottom: 24px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .stats-card {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            background: rgba(10, 22, 40, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(26, 48, 80, 0.4);
+            border-radius: 20px;
+            padding: 30px 24px;
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+        }
+        .stats-card div {
+            text-align: center;
+        }
+        .stats-card strong {
+            display: block;
+            font-size: 32px;
+            background: linear-gradient(135deg, #1a7acc, #4ab8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .stats-card span {
+            color: #8aaac8;
+            font-size: 14px;
+        }
+
+        /* ===== БЛОК ДОВЕРИЯ ===== */
+        .section { padding: 50px 0; }
+        .section.soft { 
+            background: rgba(10, 22, 40, 0.4);
+            backdrop-filter: blur(4px);
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 24px;
+            margin-bottom: 20px;
+        }
+
+        .trust-card {
+            background: rgba(17, 29, 53, 0.7);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(26, 48, 80, 0.4);
+            border-radius: 16px;
+            padding: 24px;
+            transition: 0.3s;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+        .trust-card:hover {
+            border-color: #4ab8ff;
+            box-shadow: 0 8px 40px rgba(74, 184, 255, 0.05);
+            transform: translateY(-2px);
+        }
+        .trust-card .trust-icon {
+            display: inline-block;
+            background: rgba(26, 48, 80, 0.5);
+            padding: 6px 14px;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: 700;
+            color: #4ab8ff;
+            margin-bottom: 10px;
+        }
+        .trust-card strong {
+            display: block;
+            font-size: 18px;
+            color: #ffffff;
+            margin-bottom: 6px;
+        }
+        .trust-card span {
+            color: #8aaac8;
+            font-size: 14px;
+        }
+
+        /* ===== СЕКЦИЯ ДЕЙСТВИЙ ===== */
+        .section-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+        .section-head .eyebrow { margin-bottom: 4px; }
+        .section-head h2 {
+            font-size: 30px;
+            color: #ffffff;
+        }
+        .section-head a { color: #4ab8ff; }
+
+        /* ===== СЛОТЫ ===== */
+        .slots-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 24px;
+        }
+
+        .slot-card {
+            background: rgba(17, 29, 53, 0.6);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(26, 48, 80, 0.4);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: 0.3s;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+        .slot-card:hover {
+            border-color: #4ab8ff;
+            transform: translateY(-4px);
+            box-shadow: 0 8px 40px rgba(74, 184, 255, 0.05);
+        }
+
+        .slot-cover {
+            display: block;
+            position: relative;
+            padding-top: 75%;
+            overflow: hidden;
+            background: #0f2040;
+        }
+        .slot-cover img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .slot-cover span {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(26, 48, 80, 0.8);
+            backdrop-filter: blur(4px);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            color: #4ab8ff;
+            font-weight: 600;
+        }
+
+        .slot-card-body {
+            padding: 16px 20px 20px;
+        }
+        .slot-card-body .slot-title {
+            display: block;
+            font-size: 17px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 2px;
+        }
+        .slot-card-body .slot-title:hover { color: #4ab8ff; }
+        .slot-card-body .provider-link {
+            font-size: 13px;
+            color: #8aaac8;
+        }
+        .slot-card-body .provider-link:hover { color: #4ab8ff; }
+        .slot-mini {
+            display: flex;
+            gap: 16px;
+            margin-top: 10px;
+            font-size: 13px;
+            color: #8aaac8;
+        }
+        .slot-mini b { color: #d0e4f8; font-weight: 600; }
+
+        /* ===== БОНУСЫ ===== */
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .feature-card {
+            background: rgba(17, 29, 53, 0.6);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(26, 48, 80, 0.4);
+            border-radius: 16px;
+            padding: 24px;
+            transition: 0.3s;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+        .feature-card:hover {
+            border-color: #4ab8ff;
+            transform: translateY(-4px);
+            box-shadow: 0 8px 40px rgba(74, 184, 255, 0.05);
+        }
+        .feature-card span {
+            display: inline-block;
+            background: rgba(26, 48, 80, 0.5);
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 700;
+            color: #4ab8ff;
+            margin-bottom: 10px;
+        }
+        .feature-card h3 {
+            font-size: 18px;
+            color: #ffffff;
+            margin-bottom: 6px;
+        }
+        .feature-card p {
+            color: #8aaac8;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+        .feature-card a {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        /* ===== СПЛИТ ===== */
+        .split {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        .split h2 {
+            font-size: 30px;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+        .split p {
+            color: #8aaac8;
+            margin-bottom: 16px;
+        }
+        .button-row {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .payment-image {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+        }
+
+        /* ===== ОТЗЫВЫ ===== */
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+        .review-card {
+            background: rgba(17, 29, 53, 0.6);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(26, 48, 80, 0.4);
+            border-radius: 12px;
+            padding: 20px 22px;
+            transition: 0.3s;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+        .review-card:hover { border-color: #4ab8ff; }
+        .review-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+        .review-top b {
+            color: #ffffff;
+            font-size: 16px;
+        }
+        .stars {
+            color: #f5c842;
+            font-size: 16px;
+            letter-spacing: 2px;
+        }
+        .review-card > span {
+            font-size: 13px;
+            color: #8aaac8;
+            display: block;
+            margin-bottom: 8px;
+        }
+        .review-card p {
+            color: #d0e4f8;
+            font-size: 14px;
+        }
+
+        /* ===== ГАБ ===== */
+        .hub-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+        }
+        .hub-grid a {
+            background: rgba(17, 29, 53, 0.6);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(26, 48, 80, 0.4);
+            border-radius: 12px;
+            padding: 18px 20px;
+            transition: 0.3s;
+            text-decoration: none;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+        .hub-grid a:hover {
+            border-color: #4ab8ff;
+            transform: translateY(-4px);
+            box-shadow: 0 8px 40px rgba(74, 184, 255, 0.05);
+        }
+        .hub-grid a b {
+            display: block;
+            color: #ffffff;
+            font-size: 16px;
+        }
+        .hub-grid a span {
+            color: #8aaac8;
+            font-size: 13px;
+        }
+
+        /* ===== ПРОЗА ===== */
+        .prose h2 {
+            font-size: 26px;
+            background: linear-gradient(135deg, #1a7acc, #4ab8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 40px 0 12px;
+            padding-top: 10px;
+        }
+        .prose h2:first-child { margin-top: 0; }
+        .prose p {
+            color: #d0e4f8;
+            margin-bottom: 16px;
+        }
+
+        /* ===== BOTTOM CTA ===== */
+        .bottom-cta {
+            background: linear-gradient(145deg, rgba(10, 22, 40, 0.8), rgba(15, 32, 64, 0.6));
+            border-top: 1px solid rgba(26, 48, 80, 0.3);
+            border-bottom: 1px solid rgba(26, 48, 80, 0.3);
+            padding: 50px 0;
+        }
+        .bottom-cta .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .bottom-cta h2 {
+            color: #ffffff;
+            font-size: 28px;
+        }
+        .bottom-cta p {
+            color: #8aaac8;
+            max-width: 500px;
+        }
+
+        /* ===== ФУТЕР ===== */
+        .site-footer {
+            background: rgba(10, 22, 40, 0.8);
+            backdrop-filter: blur(10px);
+            padding: 40px 0 20px;
+            border-top: 1px solid rgba(26, 48, 80, 0.3);
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+            gap: 30px;
+        }
+        .footer-brand p {
+            color: #8aaac8;
+            font-size: 14px;
+            margin: 12px 0;
+        }
+        .footer-trust {
+            display: flex;
+            gap: 12px;
+        }
+        .footer-trust span {
+            background: rgba(26, 48, 80, 0.4);
+            padding: 2px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            color: #8aaac8;
+        }
+        .footer-grid strong {
+            background: linear-gradient(135deg, #1a7acc, #4ab8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .footer-grid a {
+            display: block;
+            color: #8aaac8;
+            font-size: 14px;
+            padding: 3px 0;
+            transition: 0.3s;
+        }
+        .footer-grid a:hover { color: #4ab8ff; }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(26, 48, 80, 0.3);
+            padding-top: 20px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            font-size: 14px;
+            color: #5a7a9a;
+        }
+
+        .footer-logo {
+            height: 48px;
+            width: auto;
+        }
+
+        /* ===== МОБИЛЬНАЯ ПАНЕЛЬ ===== */
+        .mobile-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 22, 40, 0.95);
+            backdrop-filter: blur(16px);
+            border-top: 1px solid rgba(26, 48, 80, 0.4);
+            padding: 10px;
+            gap: 10px;
+            z-index: 200;
+        }
+        .mobile-bar a {
+            flex: 1;
+            text-align: center;
+            padding: 10px;
+            border-radius: 30px;
+            font-weight: 600;
+        }
+        .mobile-bar a:first-child {
+            background: transparent;
+            border: 1px solid #1a3050;
+            color: #8aaac8;
+        }
+        .mobile-bar a:last-child {
+            background: linear-gradient(135deg, #1a7acc, #4ab8ff);
+            color: #ffffff;
+        }
+
+        /* ===== AGE GATE ===== */
+        .age-gate {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(10, 22, 40, 0.97);
+            backdrop-filter: blur(20px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        .age-gate[hidden] { display: none; }
+
+        .age-gate-card {
+            background: rgba(17, 29, 53, 0.8);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(26, 48, 80, 0.4);
+            border-radius: 24px;
+            padding: 40px;
+            max-width: 480px;
+            text-align: center;
+            box-shadow: 0 12px 60px rgba(0, 0, 0, 0.4);
+        }
+        .age-gate-mark {
+            display: inline-block;
+            background: rgba(26, 48, 80, 0.5);
+            padding: 8px 24px;
+            border-radius: 40px;
+            font-size: 24px;
+            font-weight: 800;
+            color: #4ab8ff;
+        }
+        .age-gate-card h2 {
+            color: #ffffff;
+            font-size: 26px;
+            margin: 16px 0 8px;
+        }
+        .age-gate-card p {
+            color: #8aaac8;
+            margin-bottom: 24px;
+        }
+        .age-gate-actions {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .age-gate-card a {
+            display: block;
+            margin-top: 16px;
+            color: #5a7a9a;
+            font-size: 14px;
+        }
+
+        /* ===== АДАПТИВ ===== */
+        @media (max-width: 992px) {
+            .hero-grid { grid-template-columns: 1fr; }
+            .split { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+        }
+
+        @media (max-width: 768px) {
+            .menu-button { display: block; }
+            .main-nav {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                align-items: stretch;
+                padding: 16px 0;
+                gap: 8px;
+            }
+            .main-nav.open { display: flex; }
+            .header-actions {
+                width: 100%;
+                justify-content: center;
+                padding-top: 12px;
+                border-top: 1px solid rgba(26, 48, 80, 0.3);
+            }
+            .page-hero h1 { font-size: 30px; }
+            .page-hero h1 .big-bonus { font-size: 36px; }
+            .stats-card { grid-template-columns: 1fr 1fr; }
+            .footer-grid { grid-template-columns: 1fr; }
+            .bottom-cta .container { flex-direction: column; text-align: center; }
+            .mobile-bar { display: flex; }
+            .site-footer { padding-bottom: 80px; }
+        }
+
+        @media (max-width: 480px) {
+            .page-hero h1 { font-size: 24px; }
+            .page-hero h1 .big-bonus { font-size: 28px; }
+            .btn.large { padding: 12px 24px; font-size: 16px; }
+            .hero-buttons { flex-direction: column; }
+            .age-gate-card { padding: 24px; margin: 16px; }
+        }
+
+        [hidden] { display: none !important; }
+    </style>
+</head>
+<body>
+
+    <!-- ===== СКИП-ССЫЛКА ===== -->
+    <a class="skip" href="#content">К содержанию</a>
+
+    <!-- ===== AGE GATE ===== -->
+    <div class="age-gate" data-age-gate role="dialog" aria-modal="true" aria-labelledby="age-gate-title">
+        <div class="age-gate-card">
+            <span class="age-gate-mark">18+</span>
+            <p class="eyebrow">Подтверждение возраста</p>
+            <h2 id="age-gate-title">Вам уже исполнилось 18 лет?</h2>
+            <p>Сайт содержит информацию об азартных играх и предназначен только для совершеннолетних. Азартная игра не является способом заработка.</p>
+            <div class="age-gate-actions">
+                <button type="button" class="btn primary large" data-age-accept>Да, мне есть 18</button>
+                <button type="button" class="btn ghost large" data-age-reject>Мне нет 18</button>
+            </div>
+            <a href="rules.html">Ответственная игра и ограничения</a>
+        </div>
+    </div>
+
+    <!-- ===== ШАПКА ===== -->
+    <header class="site-header">
+        <div class="container header-row">
+            <a class="brand" href="index.html">
+                <img src="images/menu-logo.png" alt="Lucky Bear Казино" loading="lazy" style="height:44px; width:auto;">
+            </a>
+            <button class="menu-button" type="button" data-menu aria-label="Открыть меню">
+                <i class="fas fa-bars"></i> Меню
+            </button>
+            <nav class="main-nav" data-nav>
+                <a href="index.html" class="active">Главная</a>
+                <a href="bonus.html">Бонусы</a>
+                <a href="games.html">Игры</a>
+                <a href="vip.html">VIP</a>
+                <a href="app.html">Приложение</a>
+                <a href="reviews.html">Отзывы</a>
+                <a href="contacts.html">Контакты</a>
+                <a href="rules.html">Правила</a>
+                <a href="faq.html">FAQ</a>
+                <a href="about.html">О нас</a>
+                <a href="payment.html">Пополнение</a>
+                <a href="tournaments.html">Турниры</a>
+                <a href="providers.html">Провайдеры</a>
+                <a href="blog.html">Блог</a>
+            </nav>
+            <div class="header-actions">
+                <span class="age-badge">18+</span>
+                <a class="btn ghost" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Вход</a>
+                <a class="btn primary" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Регистрация</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== ОСНОВНОЕ СОДЕРЖАНИЕ ===== -->
+    <main id="content">
+
+        <!-- ===== ГЕРОЙ ===== -->
+        <section class="page-hero">
+            <div class="container hero-grid">
+                <div>
+                    <span class="eyebrow">🔥 ОГРОМНЫЙ БОНУС</span>
+                    <h1>
+                        ЗАБЕРИ <span class="big-bonus">500%</span><br>
+                        + <span class="big-bonus">300</span> ФРИСПИНОВ
+                    </h1>
+                    <p>Первый депозит увеличивается в 5 раз! 300 бесплатных вращений на лучшие слоты. Вывод за 5 минут. Только сегодня!</p>
+                    <div class="hero-buttons">
+                        <a class="btn primary large" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Забрать бонус</a>
+                        <a class="btn ghost large" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Играть сейчас</a>
+                    </div>
+                    <div style="margin-top:20px;display:flex;gap:20px;flex-wrap:wrap;font-size:14px;color:#8aaac8;">
+                        <span><i class="fas fa-check-circle" style="color:#4ab8ff;"></i> 3000+ игр</span>
+                        <span><i class="fas fa-check-circle" style="color:#4ab8ff;"></i> Вывод до 5 мин</span>
+                        <span><i class="fas fa-check-circle" style="color:#4ab8ff;"></i> Лицензия Curacao</span>
+                    </div>
+                </div>
+                <aside class="stats-card">
+                    <div><strong>5 847</strong><span>игроков сегодня</span></div>
+                    <div><strong>1 234 567 ₽</strong><span>выплачено за неделю</span></div>
+                    <div><strong>98%</strong><span>рекомендуют</span></div>
+                    <div><strong>4.9⭐</strong><span>средний рейтинг</span></div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- ===== БЛОК ДОВЕРИЯ ===== -->
+        <section class="section">
+            <div class="container">
+                <div class="trust-grid">
+                    <div class="trust-card">
+                        <span class="trust-icon">💰</span>
+                        <strong>500% на первый депозит</strong>
+                        <span>Увеличьте свой первый депозит в 5 раз</span>
+                    </div>
+                    <div class="trust-card">
+                        <span class="trust-icon">🎰</span>
+                        <strong>300 бесплатных вращений</strong>
+                        <span>Играйте в лучшие слоты без риска</span>
+                    </div>
+                    <div class="trust-card">
+                        <span class="trust-icon">⚡</span>
+                        <strong>Вывод за 5 минут</strong>
+                        <span>Быстрые выплаты без задержек</span>
+                    </div>
+                    <div class="trust-card">
+                        <span class="trust-icon">🏆</span>
+                        <strong>Турниры на 5 000 000 ₽</strong>
+                        <span>Участвуйте и выигрывайте крупные призы</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ПОПУЛЯРНЫЕ СЛОТЫ ===== -->
+        <section class="section soft">
+            <div class="container">
+                <div class="section-head">
+                    <div>
+                        <span class="eyebrow">Каталог</span>
+                        <h2>Популярные слоты Lucky Bear</h2>
+                        <p style="color:#8aaac8;">Характеристики, бонусные функции и особенности каждого релиза.</p>
+                    </div>
+                    <a href="games.html">Все игры →</a>
+                </div>
+                <div class="slots-grid">
+                    <article class="slot-card">
+                        <a class="slot-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
+                            <img src="images/anubis-wrath.jpg" alt="Anubis Wrath" loading="lazy">
+                            <span>Pragmatic Play</span>
+                        </a>
+                        <div class="slot-card-body">
+                            <a class="slot-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Anubis Wrath</a>
+                            <a class="provider-link" href="providers.html#pragmatic">Pragmatic Play</a>
+                            <div class="slot-mini"><b>RTP 96.47%</b><b>до x5 000</b></div>
+                        </div>
+                    </article>
+                    <article class="slot-card">
+                        <a class="slot-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
+                            <img src="images/crazy-time.jpg" alt="Crazy Time" loading="lazy">
+                            <span>Evolution</span>
+                        </a>
+                        <div class="slot-card-body">
+                            <a class="slot-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Crazy Time</a>
+                            <a class="provider-link" href="providers.html#evolution">Evolution Gaming</a>
+                            <div class="slot-mini"><b>RTP 96.08%</b><b>до x20 000</b></div>
+                        </div>
+                    </article>
+                    <article class="slot-card">
+                        <a class="slot-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
+                            <img src="images/wild-bounty-snowdown.jpg" alt="Wild Bounty Snowdown" loading="lazy">
+                            <span>Pragmatic Play</span>
+                        </a>
+                        <div class="slot-card-body">
+                            <a class="slot-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Wild Bounty Snowdown</a>
+                            <a class="provider-link" href="providers.html#pragmatic">Pragmatic Play</a>
+                            <div class="slot-mini"><b>RTP 96.50%</b><b>до x5 000</b></div>
+                        </div>
+                    </article>
+                    <article class="slot-card">
+                        <a class="slot-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
+                            <img src="images/treasures-of-aztec.jpg" alt="Treasures of Aztec" loading="lazy">
+                            <span>Pragmatic Play</span>
+                        </a>
+                        <div class="slot-card-body">
+                            <a class="slot-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Treasures of Aztec</a>
+                            <a class="provider-link" href="providers.html#pragmatic">Pragmatic Play</a>
+                            <div class="slot-mini"><b>RTP 96.25%</b><b>до x5 000</b></div>
+                        </div>
+                    </article>
+                    <article class="slot-card">
+                        <a class="slot-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
+                            <img src="images/speed-winner.jpg" alt="Speed Winner" loading="lazy">
+                            <span>Evolution</span>
+                        </a>
+                        <div class="slot-card-body">
+                            <a class="slot-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Speed Winner</a>
+                            <a class="provider-link" href="providers.html#evolution">Evolution Gaming</a>
+                            <div class="slot-mini"><b>RTP 97.00%</b><b>до x10 000</b></div>
+                        </div>
+                    </article>
+                    <article class="slot-card">
+                        <a class="slot-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
+                            <img src="images/aviamasters-2j.jpg" alt="Aviamasters 2" loading="lazy">
+                            <span>Pragmatic Play</span>
+                        </a>
+                        <div class="slot-card-body">
+                            <a class="slot-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Aviamasters 2</a>
+                            <a class="provider-link" href="providers.html#pragmatic">Pragmatic Play</a>
+                            <div class="slot-mini"><b>RTP 96.30%</b><b>до x7 500</b></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== БОНУСЫ ===== -->
+        <section class="section">
+            <div class="container">
+                <div class="section-head">
+                    <div>
+                        <span class="eyebrow">Акции</span>
+                        <h2>Бонусы для новых и постоянных игроков</h2>
+                    </div>
+                    <a href="bonus.html">Все бонусы →</a>
+                </div>
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <span>до 500%</span>
+                        <h3>Приветственный пакет</h3>
+                        <p>До 500% и 300 FS за первые депозиты</p>
+                        <a href="bonus.html">Условия →</a>
+                    </article>
+                    <article class="feature-card">
+                        <span>еженедельно</span>
+                        <h3>Lucky Bonus</h3>
+                        <p>Розыгрыши каждые 10 минут</p>
+                        <a href="bonus.html#lucky-bonus">Условия →</a>
+                    </article>
+                    <article class="feature-card">
+                        <span>до 12%</span>
+                        <h3>VIP-кэшбэк</h3>
+                        <p>От 6,5% до 12% в зависимости от уровня</p>
+                        <a href="vip.html">Условия →</a>
+                    </article>
+                    <article class="feature-card">
+                        <span>турниры</span>
+                        <h3>Турнирные призы</h3>
+                        <p>Еженедельные турниры с фондом $5 000</p>
+                        <a href="tournaments.html">Условия →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ПЛАТЕЖИ ===== -->
+        <section class="section soft">
+            <div class="container">
+                <div class="split">
+                    <div>
+                        <span class="eyebrow">Платежи</span>
+                        <h2>Удобные методы пополнения и вывода</h2>
+                        <p>Россия — RUB, Казахстан — KZT, Узбекистан — UZS. Для каждой страны доступны свои платёжные системы с актуальными лимитами.</p>
+                        <div class="button-row">
+                            <a class="btn primary" href="payment.html">Пополнение</a>
+                            <a class="btn ghost" href="payment.html#withdrawal">Вывод</a>
+                        </div>
+                    </div>
+                    <img src="images/logo.png" alt="Способы оплаты Lucky Bear" width="400" height="80" class="payment-image" loading="lazy" style="object-fit:contain;background:rgba(17,29,53,0.4);border-radius:12px;padding:20px;">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ОТЗЫВЫ ===== -->
+        <section class="section">
+            <div class="container">
+                <div class="section-head">
+                    <div>
+                        <span class="eyebrow">Отзывы</span>
+                        <h2>Что говорят игроки</h2>
+                        <p style="color:#8aaac8;">Средняя оценка — 4,8 из 5. Реальные отзывы от реальных игроков.</p>
+                    </div>
+                    <a href="reviews.html">Все отзывы →</a>
+                </div>
+                <div class="reviews-grid">
+                    <article class="review-card">
+                        <div class="review-top"><b>Алексей М.</b><span class="stars">★★★★★</span></div>
+                        <span>Москва · 24 августа 2026</span>
+                        <p>Получил 500% бонус, отыграл за пару часов и вывел выигрыш за 10 минут! Лучшее казино!</p>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-top"><b>Екатерина С.</b><span class="stars">★★★★★</span></div>
+                        <span>Санкт-Петербург · 23 августа 2026</span>
+                        <p>300 фриспинов — это просто космос! Выиграла 180 000 ₽, выплатили мгновенно.</p>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-top"><b>Дмитрий К.</b><span class="stars">★★★★★</span></div>
+                        <span>Новосибирск · 22 августа 2026</span>
+                        <p>Играю уже месяц. Вывод за 5 минут, поддержка 24/7. Бонусы просто огромные!</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== БЫСТРЫЙ ДОСТУП ===== -->
+        <section class="section soft">
+            <div class="container">
+                <div class="section-head">
+                    <div>
+                        <span class="eyebrow">Быстрый доступ</span>
+                        <h2>Все разделы Lucky Bear</h2>
+                        <p style="color:#8aaac8;">Основные действия и справочные разделы доступны с главной страницы.</p>
+                    </div>
+                </div>
+                <div class="hub-grid">
+                    <a href="index.html"><b>Главная</b><span>Вход, регистрация и акции</span></a>
+                    <a href="games.html"><b>Игры</b><span>Слоты, live и новинки</span></a>
+                    <a href="bonus.html"><b>Бонусы</b><span>Акции и промокоды</span></a>
+                    <a href="vip.html"><b>VIP</b><span>Уровни и кэшбэк</span></a>
+                    <a href="app.html"><b>Приложение</b><span>Мобильная версия</span></a>
+                    <a href="payment.html"><b>Платежи</b><span>Пополнение и вывод</span></a>
+                    <a href="reviews.html"><b>Отзывы</b><span>Мнения игроков</span></a>
+                    <a href="rules.html"><b>Правила</b><span>Условия и лицензия</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ТЕКСТОВЫЙ БЛОК ===== -->
+        <section class="section container prose">
+            <h2>Что представляет собой Lucky Bear Казино</h2>
+            <p>Lucky Bear Казино — это современная игровая платформа, ориентированная на пользователей из стран СНГ. Здесь собрана вся необходимая информация: инструкции по входу и регистрации, обширный каталог слотов, условия бонусов, платёжные системы, отзывы и юридическая документация. Площадка предлагает широкий ассортимент игр от ведущих мировых провайдеров, гарантируя качественный и честный игровой процесс.</p>
+            <p>Переход к регистрации осуществляется исключительно через официальные кнопки на сайте. Перед вводом личных данных обязательно проверяйте защищённое соединение и не переходите по подозрительным ссылкам из сообщений или комментариев. Все вопросы по восстановлению доступа можно решить через раздел контактов.</p>
+            <p>Каталог собран из подробных обзоров. У каждого слота есть самостоятельная страница с математическими параметрами, описанием базового и бонусного режима, FAQ, сильными сторонами, ограничениями и ссылкой на материалы разработчика. Характеристики одной версии серии не переносятся на другую.</p>
+            <p>Регион выбирается вручную. После выбора сайт показывает валюту профиля и ведёт на отдельную страницу страны, где перечислены методы, лимиты, сроки, комиссии и требования KYC. Для криптовалют отдельно указываются актив и сеть.</p>
+        </section>
+
+    </main>
+
+    <!-- ===== BOTTOM CTA ===== -->
+    <section class="bottom-cta">
+        <div class="container">
+            <div>
+                <span class="eyebrow">Lucky Bear</span>
+                <h2>Казино, ставки и касса в одном аккаунте</h2>
+                <p>Изучите условия, проверьте домен и используйте переход на платформу.</p>
+            </div>
+            <a class="btn primary large" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Играть в Lucky Bear</a>
+        </div>
+    </section>
+
+    <!-- ===== ФУТЕР ===== -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div style="display:flex; align-items:center; gap:12px;">
+                    <img src="images/menu-logo.png" alt="Lucky Bear Казино" style="height:40px; width:auto;">
+                    <span style="font-size:20px; font-weight:800; color:#ffffff;">Lucky Bear</span>
+                </div>
+                <p>Русскоязычный сайт Lucky Bear Казино для совершеннолетних пользователей стран СНГ. 500% бонус + 300 фриспинов ждут тебя!</p>
+                <div class="footer-trust"><span>HTTPS</span><span>18+</span><span>Лицензия</span></div>
+            </div>
+            <div><strong>Аккаунт</strong><a href="index.html">Главная</a><a href="bonus.html">Бонусы</a><a href="vip.html">VIP</a><a href="app.html">Приложение</a></div>
+            <div><strong>Игры</strong><a href="games.html">Слоты</a><a href="games.html#live">Live-казино</a><a href="games.html#new">Новые игры</a><a href="providers.html">Провайдеры</a></div>
+            <div><strong>Помощь</strong><a href="payment.html">Пополнение и вывод</a><a href="rules.html">Правила</a><a href="faq.html">FAQ</a><a href="contacts.html">Контакты</a></div>
+            <div><strong>О проекте</strong><a href="about.html">О нас</a><a href="reviews.html">Отзывы</a><a href="blog.html">Блог</a><a href="tournaments.html">Турниры</a></div>
+        </div>
+        <div class="container footer-bottom">
+            <span>© 2026 Lucky Bear Казино. Все права защищены.</span>
+            <span>Сайт работает на HTTPS · 18+</span>
+        </div>
+    </footer>
+
+    <!-- ===== МОБИЛЬНАЯ ПАНЕЛЬ ===== -->
+    <div class="mobile-bar">
+        <a href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Вход</a>
+        <a href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Играть</a>
+    </div>
+
+    <!-- ===== СКРИПТЫ ===== -->
+    <script>
+        (function() {
+            'use strict';
+
+            // AGE GATE
+            const ageGate = document.querySelector('[data-age-gate]');
+            const ageAccept = document.querySelector('[data-age-accept]');
+            const ageReject = document.querySelector('[data-age-reject]');
+
+            if (localStorage.getItem('ageVerified') === 'true') {
+                if (ageGate) ageGate.hidden = true;
+            }
+
+            if (ageAccept) {
+                ageAccept.addEventListener('click', function() {
+                    localStorage.setItem('ageVerified', 'true');
+                    if (ageGate) ageGate.hidden = true;
+                });
+            }
+
+            if (ageReject) {
+                ageReject.addEventListener('click', function() {
+                    window.location.href = 'https://www.google.com';
+                });
+            }
+
+            // МОБИЛЬНОЕ МЕНЮ
+            const menuButton = document.querySelector('[data-menu]');
+            const nav = document.querySelector('[data-nav]');
+
+            if (menuButton && nav) {
+                menuButton.addEventListener('click', function() {
+                    nav.classList.toggle('open');
+                    const expanded = nav.classList.contains('open');
+                    menuButton.setAttribute('aria-expanded', expanded);
+                    menuButton.innerHTML = expanded ?
+                        '<i class="fas fa-times"></i> Закрыть' :
+                        '<i class="fas fa-bars"></i> Меню';
+                });
+            }
+
+            // ПЛАВНАЯ ПРОКРУТКА
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        e.preventDefault();
+                        const headerOffset = 80;
+                        const elementPosition = targetElement.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // АНИМАЦИЯ ПРИ ПОЯВЛЕНИИ
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.trust-card, .feature-card, .slot-card, .review-card, .hub-grid a')
+                .forEach(el => {
+                    el.style.opacity = '0';
+                    el.style.transform = 'translateY(20px)';
+                    el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                    observer.observe(el);
+                });
+
+            console.log('Lucky Bear Казино — сайт успешно загружен!');
+        })();
+    </script>
+
+</body>
+</html>
