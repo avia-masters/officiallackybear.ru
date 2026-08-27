@@ -40,7 +40,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <style>
-        /* ===== RESET & BASE ===== */
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -53,7 +52,6 @@
         a { color: #4ab8ff; text-decoration: none; transition: 0.3s; }
         a:hover { color: #7acbff; }
 
-        /* ===== SKIP LINK ===== */
         .skip {
             position: absolute; top: -100px; left: 10px;
             background: linear-gradient(135deg, #0d6efd, #4ab8ff);
@@ -62,7 +60,6 @@
         }
         .skip:focus { top: 0; }
 
-        /* ===== HEADER ===== */
         .site-header {
             background: rgba(10, 11, 14, 0.92);
             backdrop-filter: blur(20px);
@@ -156,7 +153,6 @@
         }
         .btn-large { padding: 14px 40px; font-size: 18px; }
 
-        /* ===== GEO STRIP ===== */
         .geo-strip {
             background: rgba(13, 110, 253, 0.08);
             border-bottom: 1px solid rgba(26, 65, 124, 0.2);
@@ -166,7 +162,6 @@
         }
         .geo-strip b { color: #4ab8ff; }
 
-        /* ===== HERO ===== */
         .hero {
             padding: 40px 0 50px;
             background: linear-gradient(145deg, rgba(10,11,14,0.9), rgba(15,32,64,0.7));
@@ -239,7 +234,6 @@
             color: #8aaac8;
         }
 
-        /* ===== HERO CARD ===== */
         .hero-card {
             background: rgba(16,35,65,0.6);
             backdrop-filter: blur(12px);
@@ -281,7 +275,6 @@
             font-size: 14px;
         }
 
-        /* ===== TRUST BAR ===== */
         .trust-bar {
             background: rgba(10,11,14,0.6);
             border-bottom: 1px solid rgba(26,65,124,0.15);
@@ -306,7 +299,6 @@
             color: #8aaac8;
         }
 
-        /* ===== SECTIONS ===== */
         .section { padding: 50px 0; }
         .section-alt { background: rgba(10,11,14,0.4); border-top: 1px solid rgba(26,65,124,0.1); border-bottom: 1px solid rgba(26,65,124,0.1); }
 
@@ -334,7 +326,6 @@
         }
         .text-link:hover { color: #7acbff; }
 
-        /* ===== SLOTS GRID ===== */
         .slots-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
@@ -399,7 +390,6 @@
         }
         .slot-mini b { color: #d0e4f8; font-weight: 600; }
 
-        /* ===== FEATURE GRID (Бонусы) ===== */
         .feature-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -438,7 +428,6 @@
         }
         .feature-card a { font-weight: 600; font-size: 14px; }
 
-        /* ===== SPLIT (Платежи) ===== */
         .split {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -467,7 +456,6 @@
             padding: 20px;
         }
 
-        /* ===== REVIEWS ===== */
         .reviews-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -497,7 +485,6 @@
         }
         .review-card p { color: #d0e4f8; font-size: 14px; }
 
-        /* ===== HUB GRID ===== */
         .hub-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
@@ -525,7 +512,6 @@
             font-size: 12px;
         }
 
-        /* ===== PROSE ===== */
         .prose h2 {
             font-size: 24px;
             background: linear-gradient(135deg, #0d6efd, #4ab8ff);
@@ -539,7 +525,6 @@
             margin-bottom: 16px;
         }
 
-        /* ===== BOTTOM CTA ===== */
         .bottom-cta {
             background: rgba(10,11,14,0.8);
             border-top: 1px solid rgba(26,65,124,0.2);
@@ -562,7 +547,6 @@
             max-width: 500px;
         }
 
-        /* ===== FOOTER ===== */
         .site-footer {
             background: rgba(10,11,14,0.9);
             padding: 40px 0 20px;
@@ -601,7 +585,6 @@
         .legal p { margin-bottom: 6px; }
         .legal a { color: #4ab8ff; }
 
-        /* ===== MOBILE BAR ===== */
         .mobile-bar {
             display: none;
             position: fixed;
@@ -631,7 +614,6 @@
             color: #fff;
         }
 
-        /* ===== AGE GATE ===== */
         .age-gate {
             position: fixed;
             top: 0; left: 0; right: 0; bottom: 0;
@@ -683,7 +665,6 @@
             font-size: 14px;
         }
 
-        /* ===== RESPONSIVE ===== */
         @media (max-width: 992px) {
             .hero-grid { grid-template-columns: 1fr; }
             .split { grid-template-columns: 1fr; }
@@ -725,10 +706,8 @@
 </head>
 <body>
 
-    <!-- ===== SKIP LINK ===== -->
     <a class="skip" href="#content">К содержанию</a>
 
-    <!-- ===== AGE GATE ===== -->
     <div class="age-gate" data-age-gate role="dialog" aria-modal="true">
         <div class="age-gate-card">
             <span class="age-gate-mark">18+</span>
@@ -743,7 +722,6 @@
         </div>
     </div>
 
-    <!-- ===== HEADER ===== -->
     <header class="site-header">
         <div class="container header-row">
             <a class="logo" href="index.html">
@@ -775,15 +753,12 @@
         </div>
     </header>
 
-    <!-- ===== GEO STRIP ===== -->
     <div class="geo-strip">
         <div class="container">Регион: <b>Россия</b> · Валюта: <b>RUB</b> · Только 18+</div>
     </div>
 
-    <!-- ===== MAIN ===== -->
     <main id="content">
 
-        <!-- ===== HERO ===== -->
         <section class="hero">
             <div class="container hero-grid">
                 <div>
@@ -810,7 +785,6 @@
             </div>
         </section>
 
-        <!-- ===== TRUST BAR ===== -->
         <section class="trust-bar">
             <div class="container">
                 <div><b>Bridge Technologies B.V.</b><span>Оператор</span></div>
@@ -820,7 +794,6 @@
             </div>
         </section>
 
-        <!-- ===== ПОПУЛЯРНЫЕ СЛОТЫ ===== -->
         <section class="section container">
             <div class="section-head">
                 <div>
@@ -888,7 +861,7 @@
                 </article>
                 <article class="slot-card">
                     <a class="slot-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
-                        <img src="images/aviamasters-2j.jpg" alt="Aviamasters 2" loading="lazy">
+                        <img src="images/aviamasters-2.jpg" alt="Aviamasters 2" loading="lazy">
                         <span>Pragmatic Play</span>
                     </a>
                     <div class="slot-card-body">
@@ -900,7 +873,6 @@
             </div>
         </section>
 
-        <!-- ===== БОНУСЫ ===== -->
         <section class="section section-alt">
             <div class="container">
                 <div class="section-head">
@@ -939,7 +911,6 @@
             </div>
         </section>
 
-        <!-- ===== ПЛАТЕЖИ ===== -->
         <section class="section container">
             <div class="split">
                 <div>
@@ -955,7 +926,6 @@
             </div>
         </section>
 
-        <!-- ===== ОТЗЫВЫ ===== -->
         <section class="section section-alt">
             <div class="container">
                 <div class="section-head">
@@ -986,7 +956,6 @@
             </div>
         </section>
 
-        <!-- ===== БЫСТРЫЙ ДОСТУП ===== -->
         <section class="section container">
             <div class="section-head">
                 <div>
@@ -1007,7 +976,6 @@
             </div>
         </section>
 
-        <!-- ===== ТЕКСТОВЫЙ БЛОК ===== -->
         <section class="section section-alt container prose">
             <h2>Что представляет собой Lucky Bear Казино</h2>
             <p>Lucky Bear Казино — это современная игровая платформа, ориентированная на пользователей из стран СНГ. Здесь собрана вся необходимая информация: инструкции по входу и регистрации, обширный каталог слотов, условия бонусов, платёжные системы, отзывы и юридическая документация.</p>
@@ -1018,7 +986,6 @@
 
     </main>
 
-    <!-- ===== BOTTOM CTA ===== -->
     <section class="bottom-cta">
         <div class="container">
             <div>
@@ -1030,7 +997,6 @@
         </div>
     </section>
 
-    <!-- ===== FOOTER ===== -->
     <footer class="site-footer">
         <div class="container footer-grid">
             <div>
@@ -1075,18 +1041,15 @@
         </div>
     </footer>
 
-    <!-- ===== MOBILE BAR ===== -->
     <div class="mobile-bar">
         <a href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Вход</a>
         <a href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Играть</a>
     </div>
 
-    <!-- ===== SCRIPTS ===== -->
     <script>
         (function() {
             'use strict';
 
-            // AGE GATE
             const ageGate = document.querySelector('[data-age-gate]');
             const ageAccept = document.querySelector('[data-age-accept]');
             const ageReject = document.querySelector('[data-age-reject]');
@@ -1108,7 +1071,6 @@
                 });
             }
 
-            // MOBILE MENU
             const menuToggle = document.querySelector('[data-menu]');
             const nav = document.querySelector('[data-nav]');
 
