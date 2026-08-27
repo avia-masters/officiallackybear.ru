@@ -278,7 +278,7 @@
             width: 100%; height: 100%;
             object-fit: cover;
         }
-        .game-cover span {
+        .game-cover .game-provider-tag {
             position: absolute;
             bottom: 8px; left: 8px;
             background: rgba(10,11,14,0.8);
@@ -288,6 +288,42 @@
             color: #4ab8ff;
             font-weight: 600;
         }
+
+        /* ===== БЕЙДЖИ ===== */
+        .game-badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            z-index: 2;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+        }
+        .game-badge.hot {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: #fff;
+            border: 1px solid rgba(255,255,255,0.15);
+        }
+        .game-badge.new {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: #fff;
+            border: 1px solid rgba(255,255,255,0.15);
+        }
+        .game-badge.popular {
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+            color: #fff;
+            border: 1px solid rgba(255,255,255,0.15);
+        }
+        .game-badge.live {
+            background: linear-gradient(135deg, #9b59b6, #8e44ad);
+            color: #fff;
+            border: 1px solid rgba(255,255,255,0.15);
+        }
+
         .game-card-body {
             padding: 14px 16px 16px;
         }
@@ -311,19 +347,6 @@
             color: #8aaac8;
         }
         .game-meta b { color: #d0e4f8; font-weight: 600; }
-
-        .game-badge {
-            position: absolute;
-            top: 8px; right: 8px;
-            background: rgba(13,110,253,0.8);
-            padding: 2px 12px;
-            border-radius: 12px;
-            font-size: 11px;
-            font-weight: 700;
-            color: #fff;
-        }
-        .game-badge.hot { background: rgba(255,70,70,0.8); }
-        .game-badge.new { background: rgba(74,184,255,0.8); }
 
         .prose h2 {
             font-size: 24px;
@@ -510,6 +533,7 @@
             .btn-large { padding: 12px 24px; font-size: 16px; }
             .age-gate-card { padding: 24px; margin: 16px; }
             .games-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+            .game-badge { font-size: 9px; padding: 2px 10px; top: 4px; right: 4px; }
         }
         [hidden] { display: none !important; }
     </style>
@@ -594,12 +618,13 @@
             </div>
 
             <div class="games-grid">
-                <!-- Anubis Wrath -->
+
+                <!-- Anubis Wrath — 🔴 ХИТ -->
                 <div class="game-card">
                     <a class="game-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
                         <img src="images/anubis-wrath.jpg" alt="Anubis Wrath" loading="lazy">
-                        <span class="game-badge hot">ХИТ</span>
-                        <span>Pragmatic Play</span>
+                        <span class="game-badge hot">🔥 ХИТ</span>
+                        <span class="game-provider-tag">Pragmatic Play</span>
                     </a>
                     <div class="game-card-body">
                         <a class="game-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Anubis Wrath</a>
@@ -608,12 +633,12 @@
                     </div>
                 </div>
 
-                <!-- Aviamasters 2 -->
+                <!-- Aviamasters 2 — 🔵 НОВИНКА -->
                 <div class="game-card">
                     <a class="game-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
                         <img src="images/aviamasters-2.jpg" alt="Aviamasters 2" loading="lazy">
-                        <span class="game-badge new">НОВИНКА</span>
-                        <span>Pragmatic Play</span>
+                        <span class="game-badge new">✨ НОВИНКА</span>
+                        <span class="game-provider-tag">Pragmatic Play</span>
                     </a>
                     <div class="game-card-body">
                         <a class="game-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Aviamasters 2</a>
@@ -622,12 +647,12 @@
                     </div>
                 </div>
 
-                <!-- Crazy Time -->
+                <!-- Crazy Time — 🔴 ХИТ -->
                 <div class="game-card">
                     <a class="game-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
                         <img src="images/crazy-time.jpg" alt="Crazy Time" loading="lazy">
-                        <span class="game-badge hot">ХИТ</span>
-                        <span>Evolution</span>
+                        <span class="game-badge hot">🔥 ХИТ</span>
+                        <span class="game-provider-tag">Evolution</span>
                     </a>
                     <div class="game-card-body">
                         <a class="game-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Crazy Time</a>
@@ -640,7 +665,7 @@
                 <div class="game-card">
                     <a class="game-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
                         <img src="images/wild-bounty-snowdown.jpg" alt="Wild Bounty Snowdown" loading="lazy">
-                        <span>Pragmatic Play</span>
+                        <span class="game-provider-tag">Pragmatic Play</span>
                     </a>
                     <div class="game-card-body">
                         <a class="game-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Wild Bounty Snowdown</a>
@@ -653,7 +678,7 @@
                 <div class="game-card">
                     <a class="game-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
                         <img src="images/treasures-of-aztec.jpg" alt="Treasures of Aztec" loading="lazy">
-                        <span>Pragmatic Play</span>
+                        <span class="game-provider-tag">Pragmatic Play</span>
                     </a>
                     <div class="game-card-body">
                         <a class="game-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Treasures of Aztec</a>
@@ -666,7 +691,7 @@
                 <div class="game-card">
                     <a class="game-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
                         <img src="images/speed-winner.jpg" alt="Speed Winner" loading="lazy">
-                        <span>Evolution</span>
+                        <span class="game-provider-tag">Evolution</span>
                     </a>
                     <div class="game-card-body">
                         <a class="game-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Speed Winner</a>
@@ -679,7 +704,8 @@
                 <div class="game-card">
                     <a class="game-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
                         <img src="images/blackjack-first-person.jpg" alt="Blackjack First Person" loading="lazy">
-                        <span>Evolution</span>
+                        <span class="game-badge live">🃏 LIVE</span>
+                        <span class="game-provider-tag">Evolution</span>
                     </a>
                     <div class="game-card-body">
                         <a class="game-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Blackjack First Person</a>
@@ -692,7 +718,7 @@
                 <div class="game-card">
                     <a class="game-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
                         <img src="images/candy-hole.jpg" alt="Candy Hole" loading="lazy">
-                        <span>Pragmatic Play</span>
+                        <span class="game-provider-tag">Pragmatic Play</span>
                     </a>
                     <div class="game-card-body">
                         <a class="game-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Candy Hole</a>
@@ -705,7 +731,7 @@
                 <div class="game-card">
                     <a class="game-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
                         <img src="images/falling-pickaxe.jpg" alt="Falling Pickaxe" loading="lazy">
-                        <span>Pragmatic Play</span>
+                        <span class="game-provider-tag">Pragmatic Play</span>
                     </a>
                     <div class="game-card-body">
                         <a class="game-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Falling Pickaxe</a>
@@ -718,7 +744,8 @@
                 <div class="game-card">
                     <a class="game-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
                         <img src="images/mines.jpg" alt="Mines" loading="lazy">
-                        <span>BGaming</span>
+                        <span class="game-badge hot">🔥 ХИТ</span>
+                        <span class="game-provider-tag">BGaming</span>
                     </a>
                     <div class="game-card-body">
                         <a class="game-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Mines</a>
@@ -731,7 +758,7 @@
                 <div class="game-card">
                     <a class="game-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
                         <img src="images/speed-roulette.jpg" alt="Speed Roulette" loading="lazy">
-                        <span>Evolution</span>
+                        <span class="game-provider-tag">Evolution</span>
                     </a>
                     <div class="game-card-body">
                         <a class="game-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Speed Roulette</a>
@@ -744,7 +771,7 @@
                 <div class="game-card">
                     <a class="game-cover" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">
                         <img src="images/tower-rush.jpg" alt="Tower Rush" loading="lazy">
-                        <span>Pragmatic Play</span>
+                        <span class="game-provider-tag">Pragmatic Play</span>
                     </a>
                     <div class="game-card-body">
                         <a class="game-title" href="https://lb777.xyz/5dsgV7" rel="nofollow sponsored">Tower Rush</a>
@@ -752,6 +779,7 @@
                         <div class="game-meta"><b>RTP 96.20%</b><b>до x5 000</b></div>
                     </div>
                 </div>
+
             </div>
         </section>
 
